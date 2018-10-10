@@ -1,9 +1,9 @@
 # journal-web-app
 
 ![projectdemo](https://user-images.githubusercontent.com/15827348/46714941-dee4d980-cc2b-11e8-964c-5a332b3cadfb.gif)
-# Project Title
+# Journal-web-application
 
-One Paragraph of project description goes here
+A simple way to store your memories on the web. 
 
 ## Getting Started
 
@@ -11,7 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install npm  - https://www.npmjs.com/get-npm
+firebase account
+Bootstrap 3.7.3
+
 
 ```
 Give examples
