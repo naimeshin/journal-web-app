@@ -1,11 +1,11 @@
 var Firebase = (function() {
   var projectConfig = {
-    apiKey: "AIzaSyC_Rhtfu401EbquF8_YDGqYxx-wBxv0IGc",
-    authDomain: "relu-project.firebaseapp.com",
-    databaseURL: "https://relu-project.firebaseio.com",
-    projectId: "relu-project",
-    storageBucket: "relu-project.appspot.com",
-    messagingSenderId: "1038016004500"
+    apiKey: "<--------API-KEY----------->",
+    authDomain: "<auth-Domain>.firebaseapp.com",
+    databaseURL: "https://<db-url>.firebaseio.com",
+    projectId: "<project-id>",
+    storageBucket: "<project-bucket>.appspot.com",
+    messagingSenderId: "--"
   };
   firebase.initializeApp(projectConfig);
   return {
