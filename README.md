@@ -3,9 +3,22 @@ A simple way to store your memories on the web.
 
 ![naimesh-demo-app-gif](https://user-images.githubusercontent.com/15827348/46746751-b8e82500-cc7d-11e8-853a-b426037f9210.gif)
 
+## Table of Contents
+
+- Prerequisites
+- Installation Instructions
+- Deployment
+- Biggest Issue Encounter
+- What I Learned
+- Project Functionality
+- What can be done differently
+
+
 # Journal-web-application
 
 - Demo : [https://relu-project.firebaseapp.com](https://relu-project.firebaseapp.com)
+
+## Technology 
 
 
 ## Getting Started
