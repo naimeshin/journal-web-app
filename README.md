@@ -109,11 +109,11 @@ your-firebase-project-id.firebaseapp.com.
 
 ## Project-functionality 
 
-* Authenticate Google User
+* Authenticate Google Users
 * SignIn - SignOut users
-* Create new journal
+* Create new journals
 * Delete new and old journals
-* Save new journal
+* Save new journals
 * Update old journals
 * Read all journals
 * Cancel editing new or old journal
