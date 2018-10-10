@@ -5,7 +5,7 @@ A simple way to store your memories on the web.
 
 ## Table of Contents
 
-- Prerequisites
+- [Prerequisites](#prerequisites)
 - Installation Instructions
 - Deployment
 - Biggest Issue Encounter
