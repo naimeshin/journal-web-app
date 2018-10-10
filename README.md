@@ -1,9 +1,11 @@
-# Project Title - Journal-Web-Application
+# Project Title : Journal-Web-Application
+
+A simple way to store your memories on the web. 
+
 
 ![projectdemo](https://user-images.githubusercontent.com/15827348/46714941-dee4d980-cc2b-11e8-964c-5a332b3cadfb.gif)
 # Journal-web-application
 
-A simple way to store your memories on the web. 
 
 ## Getting Started
 
@@ -18,12 +20,23 @@ Bootstrap 3.3.7 - https://getbootstrap.com/docs/3.3/ <br>
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Download this project or repo, then add the following things:  
 
-Say what the step will be
+1) Add project configuration details in journal-app/public/js/firebase.js 
+
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    projectId: "<PROJECT_ID>",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
 
 ```
-Give the example
 ```
 
 And repeat
