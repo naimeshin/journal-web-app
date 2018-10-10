@@ -93,19 +93,25 @@ your-firebase-project-id.firebaseapp.com.
 * Ongoing Issue: Incognito browsers creates bug for storeing data on firebase-database.
 
 ## What I Learned 
-* Design static website on firebase 
+* Design static website and deploy on firebase 
 * firebase google auth 
 * firebase database CRUD implementation
 
 ## Project Functionality 
 
 * Authenticate Google User
+* SignIn - SignOut users
 * Create new journal
 * Delete new and old journals
 * Save new journal
 * Update old journals
 * Read all journals
 * Cancel editing new or old journal
+
+# What can be done differently
+
+* Implement this project using Angular2/6 with Firebase which may be helpful for a component based apporach. 
+* Responsive for small screen size (Screen size less than 800px)
 
 ## Versioning
 No versioning added yet
