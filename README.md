@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Firebase Referece - https://firebase.google.com/docs/web/setup <br>
 
 
-### Installing
+### Installation Instructions 
 
 
 Download this project or repo, then add the following things:  
@@ -48,31 +48,34 @@ Download this project or repo, then add the following things:
 </script>
 ```
 
-2. open terminal: Install the Firebase CLI
+
+## Deployment
+
+1. open terminal: Install the Firebase CLI
 
 ```
 $ npm install -g firebase-tools
 
 ```
-3. Access your Firebase projects
+2. Access your Firebase projects
 
 ```
 $ firebase login
 
 ```
-4. Initialize your site
+3. Initialize your site
 
 ```
 $ firebase init
 
 ```
-5. Select a public root directory
+4. Select a public root directory
 
 ```
 $ public 
 
 ```
-6. Deploy your site
+5. Deploy your site
 
 ```
 $ firebase deploy
@@ -84,35 +87,33 @@ Your content will be deployed to your Firebase project's default Hosting site,
 your-firebase-project-id.firebaseapp.com.
 ```
 
+## Biggest Issue Encounter 
 
+* Designed project on small version; Few issues encounter with firebase configuration,database and authentication.
+* Ongoing Issue: Incognito browsers creates bug for storeing data on firebase-database.
 
+## What I Learned 
+* Design static website on firebase 
+* firebase google auth 
+* firebase database CRUD implementation
 
-## Deployment
+## Project Functionality 
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* Authenticate Google User
+* Create new journal
+* Delete new and old journals
+* Save new journal
+* Update old journals
+* Read all journals
+* Cancel editing new or old journal
 
 ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+No versioning added yet
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Naimesh Narsinghani**
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
