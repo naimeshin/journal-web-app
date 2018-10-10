@@ -25,23 +25,64 @@ Bootstrap 3.3.7 - https://getbootstrap.com/docs/3.3/ <br>
 
 Download this project or repo, then add the following things:  
 
-1) Add project configuration details in journal-app/public/js/firebase.js 
+1) Add firebase to your app :  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  // Initialize Firebase  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // TODO: Replace with your project's customized code snippet <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  var config = { <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    apiKey: "<API_KEY>", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    authDomain: "<PROJECT_ID>.firebaseapp.com", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   databaseURL: "https://<DATABASE_NAME>.firebaseio.com", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    projectId: "<PROJECT_ID>", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    storageBucket: "<BUCKET>.appspot.com", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    messagingSenderId: "<SENDER_ID>", <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  }; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  firebase.initializeApp(config); <br>
+*   Create firebase account and add project configuration details in project @ journal-app/public/js/firebase.js 
+>   https://firebase.google.com/docs/web/setup
 
 ```
+  <script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    projectId: "<PROJECT_ID>",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
+  };
+  firebase.initializeApp(config);
+</script>
 ```
 
+2. open terminal: Install the Firebase CLI
+
+```
+$ npm install -g firebase-tools
+
+```
+3. Access your Firebase projects
+
+```
+$ firebase login
+
+```
+4. Initialize your site
+
+```
+$ firebase init
+
+```
+5. Select a public root directory
+
+```
+$ public 
+
+```
+
+6.Deploy your site
+
+```
+$ firebase deploy
+
+```
+Your content will be deployed to your Firebase project's default Hosting site, 
+
+```
+your-firebase-project-id.firebaseapp.com.
+```
+pub
 And repeat
 
 ```
