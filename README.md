@@ -24,17 +24,17 @@ Download this project or repo, then add the following things:
 
 1) Add project configuration details in journal-app/public/js/firebase.js 
 
-  // Initialize Firebase  <br>
-  // TODO: Replace with your project's customized code snippet <br>
-  var config = { <br>
-    apiKey: "<API_KEY>", <br>
-    authDomain: "<PROJECT_ID>.firebaseapp.com", <br>
-    databaseURL: "https://<DATABASE_NAME>.firebaseio.com", <br>
-    projectId: "<PROJECT_ID>", <br>
-    storageBucket: "<BUCKET>.appspot.com", <br>
-    messagingSenderId: "<SENDER_ID>", <br>
-  }; <br>
-  firebase.initializeApp(config); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  // Initialize Firebase  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // TODO: Replace with your project's customized code snippet <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  var config = { <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    apiKey: "<API_KEY>", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    authDomain: "<PROJECT_ID>.firebaseapp.com", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   databaseURL: "https://<DATABASE_NAME>.firebaseio.com", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    projectId: "<PROJECT_ID>", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    storageBucket: "<BUCKET>.appspot.com", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    messagingSenderId: "<SENDER_ID>", <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  }; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  firebase.initializeApp(config); <br>
 
 ```
 ```
