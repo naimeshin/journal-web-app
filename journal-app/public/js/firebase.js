@@ -1,7 +1,7 @@
 var Firebase = (function() {
   var projectConfig = {
     apiKey: "<--------API-KEY----------->",
-    authDomain: "<auth-Domain>.firebaseapp.com",
+    authDomain: "<auth-Domain>",
     databaseURL: "https://<db-url>.firebaseio.com",
     projectId: "<project-id>",
     storageBucket: "<project-bucket>.appspot.com",
