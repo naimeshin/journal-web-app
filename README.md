@@ -110,7 +110,7 @@ your-firebase-project-id.firebaseapp.com.
 * firebase google auth 
 * firebase database CRUD implementation
 
-## Project Functionality 
+## Project-functionality 
 
 * Authenticate Google User
 * SignIn - SignOut users
@@ -121,15 +121,12 @@ your-firebase-project-id.firebaseapp.com.
 * Read all journals
 * Cancel editing new or old journal
 
-# What can be done differently
+# What-can-be-done-differently
 
 * Implement this project using Angular2/6 with Firebase which may be helpful for a component based apporach. 
 * Responsive for small screen size (Screen size less than 800px)
 
-## Versioning
-No versioning added yet
-
-## Authors
+## Author
 
 * **Naimesh Narsinghani**
 
