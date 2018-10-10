@@ -9,12 +9,11 @@ A simple way to store your memories on the web.
 - [Installation-Instructions](#installation-instructions)
 - [Deployment](#deployment)
 - [Biggest-issue-encounter](#biggest-issue-encounter)
+- [What-i-learned](#what-i-learned)
+- [Project-functionality](#project-functionality)
+- [What-can-be-done-differently](#What-can-be-done-differently)
 - [Prerequisites](#prerequisites)
-- Deployment
-- Biggest Issue Encounter
-- What I Learned
-- Project Functionality
-- What can be done differently
+- [Prerequisites](#prerequisites)
 
 
 # Journal-web-application
@@ -106,7 +105,7 @@ your-firebase-project-id.firebaseapp.com.
 * Designed project on small version; Few issues encounter with firebase configuration,database and authentication.
 * Ongoing Issue: Incognito browsers creates bug for storeing data on firebase-database.
 
-## What I Learned 
+## What-i-learned 
 * Design static website and deploy on firebase 
 * firebase google auth 
 * firebase database CRUD implementation
