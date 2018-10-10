@@ -1,4 +1,4 @@
-# Project Title : Journal-Web-Application
+# Project: Journal-Web-Application
 A simple way to store your memories on the web. 
 
 ![naimesh-demo-app-gif](https://user-images.githubusercontent.com/15827348/46746751-b8e82500-cc7d-11e8-853a-b426037f9210.gif)
@@ -17,7 +17,7 @@ A simple way to store your memories on the web.
 
 - Demo : [https://relu-project.firebaseapp.com](https://relu-project.firebaseapp.com)
 
-## Technology 
+## Technologies 
 * HTML - CSS - Javascript - DOM - BootStrap@3 - Firebase Hosting and DB
 
 ## Getting Started
