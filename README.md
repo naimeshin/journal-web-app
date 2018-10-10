@@ -1,9 +1,7 @@
 # Project Title : Journal-Web-Application
 A simple way to store your memories on the web. 
 
-
-![projectdemo](https://user-images.githubusercontent.com/15827348/46714941-dee4d980-cc2b-11e8-964c-5a332b3cadfb.gif)
-
+![naimesh-demo-app-gif](https://user-images.githubusercontent.com/15827348/46746751-b8e82500-cc7d-11e8-853a-b426037f9210.gif)
 
 # Journal-web-application
 
