@@ -7,10 +7,9 @@ A simple way to store your memories on the web.
 
 - [Prerequisites](#prerequisites)
 - [Installation-Instructions](#installation-instructions)
+- [Deployment](#deployment)
+- [Biggest Issue Encounter](#biggest issue encounter)
 - [Prerequisites](#prerequisites)
-- [Prerequisites](#prerequisites)
-- [Prerequisites](#prerequisites)
-- Installation Instructions
 - Deployment
 - Biggest Issue Encounter
 - What I Learned
