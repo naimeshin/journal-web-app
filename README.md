@@ -1,4 +1,4 @@
-# journal-web-app
+# Project Title - Journal-Web-Application
 
 ![projectdemo](https://user-images.githubusercontent.com/15827348/46714941-dee4d980-cc2b-11e8-964c-5a332b3cadfb.gif)
 # Journal-web-application
@@ -11,10 +11,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install npm  - https://www.npmjs.com/get-npm
-firebase account
-Bootstrap 3.7.3
-
+latest npm  - https://www.npmjs.com/get-npm
+Firebase - Authentication - https://firebase.google.com/
+Firebase - Database 
+Firebase - Web Project Configuration 
+Bootstrap 3.3.7 - https://getbootstrap.com/docs/3.3/
 
 ```
 Give examples
