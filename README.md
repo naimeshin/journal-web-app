@@ -18,7 +18,7 @@ A simple way to store your memories on the web.
 - Demo : [https://relu-project.firebaseapp.com](https://relu-project.firebaseapp.com)
 
 ## Technology 
-
+* HTML - CSS - Javascript - DOM - BootStrap@3 - Firebase Hosting and DB
 
 ## Getting Started
 
