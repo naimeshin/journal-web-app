@@ -24,17 +24,17 @@ Download this project or repo, then add the following things:
 
 1) Add project configuration details in journal-app/public/js/firebase.js 
 
-  // Initialize Firebase
-  // TODO: Replace with your project's customized code snippet
-  var config = {
-    apiKey: "<API_KEY>",
-    authDomain: "<PROJECT_ID>.firebaseapp.com",
-    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
-    projectId: "<PROJECT_ID>",
-    storageBucket: "<BUCKET>.appspot.com",
-    messagingSenderId: "<SENDER_ID>",
-  };
-  firebase.initializeApp(config);
+  // Initialize Firebase  <br>
+  // TODO: Replace with your project's customized code snippet <br>
+  var config = { <br>
+    apiKey: "<API_KEY>", <br>
+    authDomain: "<PROJECT_ID>.firebaseapp.com", <br>
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com", <br>
+    projectId: "<PROJECT_ID>", <br>
+    storageBucket: "<BUCKET>.appspot.com", <br>
+    messagingSenderId: "<SENDER_ID>", <br>
+  }; <br>
+  firebase.initializeApp(config); <br>
 
 ```
 ```
