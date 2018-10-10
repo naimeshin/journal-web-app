@@ -12,14 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 latest npm  - https://www.npmjs.com/get-npm <br>
-Firebase - Authentication - https://firebase.google.com/
-Firebase - Database 
-Firebase - Web Project Configuration 
-Bootstrap 3.3.7 - https://getbootstrap.com/docs/3.3/
+Firebase - Authentication, Web-Project-Configuration, Database - https://firebase.google.com/docs/web/setup <br>
+Bootstrap 3.3.7 - https://getbootstrap.com/docs/3.3/ <br>
 
-```
-Give examples
-```
 
 ### Installing
 
