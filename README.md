@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-latest npm  - https://www.npmjs.com/get-npm
+latest npm  - https://www.npmjs.com/get-npm <br>
 Firebase - Authentication - https://firebase.google.com/
 Firebase - Database 
 Firebase - Web Project Configuration 
