@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-database.js"></script>
+    <script type="text/javascript" src="js/firebase.js"></script>
+    <script type="text/javascript" src="js/index.js"> </script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="navbar-container" >
+        <nav class="navbar navbar-default">
+          <div class="container-fluid ">
+            <div class="navbar-header">
+              <img class="pull-left logo" src="img/metisLogo.png" alt="">
+              <a class=" navbar-brand">_Journal</a>
+            </div>
+            <div class="navbar-default">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a id="login-toggle" class="btn pull-left navbar-brand"></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="login-container">
+        <div class="col-md-6 col-sm-6 col-xs-12 col-sm-offset-3 col-md-offset-3">
+          <div class="form-container">
+              <img class="journal-logo" src="img/journal-logo.png" alt="">
+              <h4 class="form-text">I'm always trying to figure out ways to keep hold of memories. My one-sentence journal, for instance.</h4>
+              <button id="login-banner" class="btn signup-button btn-default btn-block">
+                <img src="img/googleAuth.png" class="google-auth-img" alt="">
+                Login With Google
+              </button>
+          </div>
+        </div>
+      </div>
+      <div class="journal-container">
+        <div class="row">
+          <div class="app-list-box col-md-3 col-sm-3 col-xs-3">
+                <div class="app-list-item">
+                  <ul id="ul-list" class="unorder-list">
+                    <li class="list-item">
+                      <button id="new-journal" style="cursor:pointer;" class="list-group-item clearfix">
+                        Add New Journal
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+          <div class="app-detail-box col-md-8 col-sm-8 col-xs-8">
+            <form class="" action="" method="post">
+              <!-- current journal's title; save and delete buttons -->
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <div class="form-group">
+                    <input type="text"
+                          name=""
+                          placeholder="Title ... "
+                          class="app-detail-box-title form-control">
+                  </div>
+                </div>
+                <div class="pull-right col-md-3 col-sm-3 col-xs-3">
+                  <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                    <button id="save-journal" type="button" class="btn btn-default" (click)="onSubmit()">
+                      <span class="glyphicon glyphicon-floppy-save"></span>Save
+                    </button>
+                    <button id="delete-journal" type="button" class="btn btn-default">
+                      <span class="glyphicon glyphicon-trash"></span> Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 col-xs-4 col-sm-4">
+                    <div class="form-group">
+                      <input  type="date"
+                        name=""
+                        placeholder="Add Description ... "
+                        id="description"
+                        class="form-control"
+                        formControlName="description">
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-10 col-xs-10">
+                  <div class="form-group">
+                    <textarea
+                      name="data"
+                      placeholder="type here...."
+                      id="" rows="20"
+                      class="textarea col-lg-10"
+                      formControlName="data"></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
