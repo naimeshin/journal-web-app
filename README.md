@@ -6,6 +6,10 @@ A simple way to store your memories on the web.
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
+- [Installation-Instructions](#installation-instructions)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - Installation Instructions
 - Deployment
 - Biggest Issue Encounter
@@ -33,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Firebase Referece - https://firebase.google.com/docs/web/setup <br>
 
 
-### Installation Instructions 
+### Installation-Instructions 
 
 
 Download this project or repo, then add the following things:  
