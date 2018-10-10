@@ -12,9 +12,6 @@ A simple way to store your memories on the web.
 - [What-i-learned](#what-i-learned)
 - [Project-functionality](#project-functionality)
 - [What-can-be-done-differently](#What-can-be-done-differently)
-- [Prerequisites](#prerequisites)
-- [Prerequisites](#prerequisites)
-
 
 # Journal-web-application
 
