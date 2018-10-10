@@ -8,7 +8,7 @@ A simple way to store your memories on the web.
 - [Prerequisites](#prerequisites)
 - [Installation-Instructions](#installation-instructions)
 - [Deployment](#deployment)
-- [Biggest Issue Encounter](#biggest issue encounter)
+- [Biggest-issue-encounter](#biggest-issue-encounter)
 - [Prerequisites](#prerequisites)
 - Deployment
 - Biggest Issue Encounter
@@ -101,7 +101,7 @@ Your content will be deployed to your Firebase project's default Hosting site,
 your-firebase-project-id.firebaseapp.com.
 ```
 
-## Biggest Issue Encounter 
+## Biggest-issue-encounter 
 
 * Designed project on small version; Few issues encounter with firebase configuration,database and authentication.
 * Ongoing Issue: Incognito browsers creates bug for storeing data on firebase-database.
