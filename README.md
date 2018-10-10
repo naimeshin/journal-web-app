@@ -7,7 +7,7 @@ A simple way to store your memories on the web.
 
 # Journal-web-application
 
-- Demo : [https:relu-project.firebaseapp.com](https:relu-project.firebaseapp.com)
+- Demo : [https://relu-project.firebaseapp.com](https://relu-project.firebaseapp.com)
 
 
 ## Getting Started
